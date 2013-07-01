@@ -1242,6 +1242,7 @@ plot 'files_by_date.dat' using 1:2 w steps
 """
 set output 'lines_of_code.png'
 unset key
+set terminal png transparent size 1400,700
 set xdata time
 set timefmt "%s"
 set format x "%Y-%m-%d"
